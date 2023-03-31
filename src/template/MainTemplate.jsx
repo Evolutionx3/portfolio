@@ -1,11 +1,13 @@
-import React from 'react'
+import React from "react";
+import Navbar from "../organisms/Navbar/Navbar";
 
-const MainTemplate = () => {
+const MainTemplate = ({ children }) => {
   return (
-    <div>
-      
-    </div>
-  )
-}
+    <>
+      <Navbar />
+      {children}
+    </>
+  );
+};
 
-export default MainTemplate
+export default MainTemplate;
