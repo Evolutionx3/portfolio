@@ -4,7 +4,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        black: "#141414",
+        black: "#040405",
+        lightBlack: "#09090b",
         lightGray: "#e8e8e8",
         gray: "#b9b9b9",
         red: "#FF3A5E",
@@ -12,6 +13,9 @@ export default {
       },
       fontFamily: {
         Manrope: ["Manrope", "sans-serif"],
+      },
+      borderRadius: {
+        full: "50%",
       },
     },
   },
