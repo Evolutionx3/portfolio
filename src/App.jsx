@@ -1,8 +1,7 @@
 import "./App.css";
 import { Routes, Link } from "react-router-dom";
 import MainTemplate from "./template/MainTemplate";
-import Hero from "./organisms/Hero/Hero";
-import About from "./organisms/About/About";
+import Home from "./pages/Home";
 
 function App() {
   // return (
@@ -16,8 +15,7 @@ function App() {
   return (
     <div className="App mx-auto">
       <MainTemplate>
-        <Hero />
-        <About />
+        <Home />
       </MainTemplate>
     </div>
   );
